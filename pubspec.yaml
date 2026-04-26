@@ -6,7 +6,7 @@ description: Demonstrates how to use the mrzscanner_flutter plugin.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ">=2.17.0 <=3.3.0"
+  sdk: ^3.0.0
 
 dependencies:
   flutter:
@@ -30,16 +30,16 @@ dependencies:
   camera_platform_interface: ^2.2.2
 
   # mrzscanner_flutter:
-    # When depending on this package from a real application you should use:
-    #   mrzscanner_flutter: ^x.y.z
-    # See https://dart.dev/tools/pub/dependencies#version-constraints
-    # The example app is bundled with the plugin so we use a path dependency on
-    # the parent directory to use the current plugin's version.
-    # path: lib/mrz_lib
+  # When depending on this package from a real application you should use:
+  #   mrzscanner_flutter: ^x.y.z
+  # See https://dart.dev/tools/pub/dependencies#version-constraints
+  # The example app is bundled with the plugin so we use a path dependency on
+  # the parent directory to use the current plugin's version.
+  # path: lib/mrz_lib
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  
+
 dev_dependencies:
   flutter_launcher_icons: "^0.13.1"
 
